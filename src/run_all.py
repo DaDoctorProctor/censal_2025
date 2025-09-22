@@ -1,12 +1,14 @@
 import os
 
 scripts = [
-    "clear.py", # Clean the output folder
+    "clc_output_folder.py", # Clean the output folder
     "process_saic.py", # Extract data and divide by National, State and region
-    "divide.py", # Divide (National / Estatal)
-    "regional.py", # Divide regions into subfolders with each region name ready to divide
-    "divide2.py", # Divide (Estatal / Regional)
-    "final.py" # Divide (Nacional / Estatal) / (Estatal / Regional)
+    "divide_national_state.py", # Divide (National / Estatal)
+    "split_regional.py", # Split regions into subfolders with each region name ready to divide
+    "divide_state_region.py", # Divide (Estatal / Regional)
+    "divide_nation_state_state_region.py", # Divide (Nacional / Estatal) / (Estatal / Regional)
+    "process_percentages.py"
+    # Patch the values into percentages
     # Add other scripts here: "other_script.py", etc.
 ]
 

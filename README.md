@@ -17,3 +17,20 @@ The descriptive text has been removed to save space. The following glossary maps
 - "Actividad económica" column retains the cleaned sector names without the "Sector XX" prefix.
 - Years are appended to the variable code for each column, e.g., H001A_2008, A111A_2013.
 - CSV files for 00_Total_Nacional and 28_Tamaulipas are split by variable in their respective subfolders.
+
+# Pendientes
+
+- Generar las matrices porcentuales
+- 
+
+# IDE
+- PyCharm Jetbrains
+
+Frontera Norte del Pais	2006 - 2024	4to trimestre	suma de todos los 4to trimestres
+Baja California			
+Coahuila			
+Chihuahua			
+Nuevo Leon			
+Sonora			
+Tamaulipas			
+	
