@@ -1,12 +1,12 @@
 import os
 
 scripts = [
-    "clear.py",
-    "process_saic.py",
-    "divide.py",
-    "regional.py",
-    "divide2.py",
-    "final.py"
+    "clear.py", # Clean the output folder
+    "process_saic.py", # Extract data and divide by National, State and region
+    "divide.py", # Divide (National / Estatal)
+    "regional.py", # Divide regions into subfolders with each region name ready to divide
+    "divide2.py", # Divide (Estatal / Regional)
+    "final.py" # Divide (Nacional / Estatal) / (Estatal / Regional)
     # Add other scripts here: "other_script.py", etc.
 ]
 

@@ -17,7 +17,7 @@ REGIONAL_DIRS = {
 OUTPUT_DIR = os.path.join(BASE_CSV_DIR, "prop_state_regions")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-VARIABLES = ["A111A", "A121A", "A211A", "A221A"]
+VARIABLES = ["A111A", "A121A", "A131A", "A221A"]
 
 
 def read_with_header_fix(file_path):

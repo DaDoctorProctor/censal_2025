@@ -6,7 +6,7 @@ BASE_CSV_DIR = "output/csv"
 OUTPUT_DIR = os.path.join(BASE_CSV_DIR, "proportional_national_state")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-VARIABLES = ["A111A", "A121A", "A211A", "A221A"]
+VARIABLES = ["A111A", "A121A", "A131A", "A221A"]
 ENTIDADES = {
     "Nacional": "00_Total_Nacional",
     "Tamaulipas": "28_Tamaulipas"

@@ -9,7 +9,7 @@ OUTPUT_DIR = os.path.join(BASE_CSV_DIR, "proportional_region_weight")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-VARIABLES = ["A111A", "A121A", "A211A", "A221A"]
+VARIABLES = ["A111A", "A121A", "A131A", "A221A"]
 REGIONS = ["Centro", "Frontera", "Mante", "Matamoros", "Reynosa", "Ribereña", "Sur"]
 
 
