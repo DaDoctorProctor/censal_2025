@@ -4,31 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ba21d05-6455-452c-a1a7-f88e94fe8149" name="Changes" comment="Removed some excel files to create new .csv files which are more modular for data manipulation.">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="0ba21d05-6455-452c-a1a7-f88e94fe8149" name="Changes" comment="Finished the .csv files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/A111A_Producción_bruta_total_millones_de_pesos.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/A121A_Consumo_intermedio_millones_de_pesos.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/A131A_Valor_agregado_censal_bruto_millones_de_pesos.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/A211A_Inversión_total_millones_de_pesos.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/A221A_Formación_bruta_de_capital_fijo_millones_de_pesos.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/H001A_Personal_ocupado_total.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/Q000A_Acervo_total_de_activos_fijos_millones_de_pesos.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/excel/A111A_Producción_bruta_total_millones_de_pesos.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/excel/A121A_Consumo_intermedio_millones_de_pesos.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/excel/A131A_Valor_agregado_censal_bruto_millones_de_pesos.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/excel/A211A_Inversión_total_millones_de_pesos.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/excel/A221A_Formación_bruta_de_capital_fijo_millones_de_pesos.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/excel/H001A_Personal_ocupado_total.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/excel/Q000A_Acervo_total_de_activos_fijos_millones_de_pesos.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="dev" />
@@ -64,6 +53,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.divide.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -102,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758524588151</updated>
-      <workItem from="1758524685983" duration="12169000" />
+      <workItem from="1758524685983" duration="13676000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, includes legacy files from first version.">
       <option name="closed" value="true" />
@@ -136,7 +126,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758534971904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished the .csv files.">
+      <option name="closed" value="true" />
+      <created>1758537141029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758537141029</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finished the .csv files.">
+      <option name="closed" value="true" />
+      <created>1758537152523</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758537152523</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,9 +163,11 @@
     <MESSAGE value="Initial commit, includes legacy files from first version." />
     <MESSAGE value="Rewrote the code to begin the process to make it more compatible." />
     <MESSAGE value="Removed some excel files to create new .csv files which are more modular for data manipulation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed some excel files to create new .csv files which are more modular for data manipulation." />
+    <MESSAGE value="Finished the .csv files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the .csv files." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/censal_2025$main.coverage" NAME="main Coverage Results" MODIFIED="1758536914683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/censal_2025$main.coverage" NAME="main Coverage Results" MODIFIED="1758537843210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/censal_2025$divide.coverage" NAME="divide Coverage Results" MODIFIED="1758538418382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
