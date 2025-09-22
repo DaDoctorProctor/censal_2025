@@ -3,7 +3,10 @@ import os
 scripts = [
     "clear.py",
     "process_saic.py",
-    "divide.py"
+    "divide.py",
+    "regional.py",
+    "divide2.py",
+    "final.py"
     # Add other scripts here: "other_script.py", etc.
 ]
 
