@@ -1,3 +1,4 @@
+# process_saic.py
 import os
 import re
 import shutil
@@ -77,7 +78,6 @@ def process_variable(df, variable, regions_local):
     pivoted.rename(columns={"index": "Actividad económica"}, inplace=True)
     return pivoted
 
-# ---------------- Nation/State CSV splitting ----------------
 def export_nation_state_wide_csvs(df, years, output_dir):
     csv_dir = os.path.join(output_dir, "csv")
     os.makedirs(csv_dir, exist_ok=True)
@@ -107,23 +107,17 @@ def export_nation_state_wide_csvs(df, years, output_dir):
         df_wide.rename(columns={"index": "Actividad económica"}, inplace=True)
         df_wide = clean_sectores_column(df_wide)
 
-        # Convert all numeric columns
         for col in df_wide.columns:
             if col != "Actividad económica":
                 df_wide[col] = pd.to_numeric(df_wide[col], errors='coerce').fillna(0)
 
-        # Sort columns alphabetically except first
         df_wide = df_wide[["Actividad económica"] + sorted([c for c in df_wide.columns if c != "Actividad económica"])]
-
-        # Add total row once
         df_wide = add_total_row_to_df(df_wide)
 
-        # Save main wide CSV
         filename_safe = sanitize_filename(label)
         csv_path = os.path.join(csv_dir, f"{filename_safe}.csv")
         df_wide.to_csv(csv_path, index=False)
 
-        # Split per variable
         split_folder = os.path.join(csv_dir, filename_safe)
         os.makedirs(split_folder, exist_ok=True)
         shutil.move(csv_path, split_folder)
@@ -132,13 +126,9 @@ def export_nation_state_wide_csvs(df, years, output_dir):
 
         variable_cols = [c for c in df_wide.columns if c != "Actividad económica"]
         variable_codes = sorted(set(c.split("_")[0] for c in variable_cols))
-        # When generating the split-per-variable CSVs for nation/state
         for code in variable_codes:
             cols_for_var = [c for c in df_wide.columns if c.startswith(code)]
             df_var = df_wide[["Actividad económica"] + cols_for_var].copy()
-
-            # Do NOT add total row again, it already exists in df_wide
-            # Just sort columns alphabetically
             cols_sorted = ["Actividad económica"] + sorted([c for c in df_var.columns if c != "Actividad económica"])
             df_var = df_var[cols_sorted]
 
@@ -147,7 +137,6 @@ def export_nation_state_wide_csvs(df, years, output_dir):
             file_path = os.path.join(split_folder, file_name)
             df_var.to_csv(file_path, index=False)
 
-# ---------------- Main pipeline ----------------
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     df = pd.read_csv(INPUT_CSV, dtype=str)
@@ -159,10 +148,8 @@ def main():
     global YEARS
     YEARS = [year for year in YEARS if year >= 2008]
 
-    # Nation/State CSVs
     export_nation_state_wide_csvs(df, YEARS, OUTPUT_DIR)
 
-    # Regional CSVs
     required = ["Año Censal", "Entidad", "Municipio", "Actividad económica"]
     all_cols = list(df.columns)
     var_cols = [c for c in all_cols if c not in required]
@@ -179,14 +166,8 @@ def main():
         pivot = clean_sectores_column(pivot)
         pivot = add_total_row_to_df(pivot)
         code = var.split()[0]
-
-        # Shorten column headers
         pivot.columns = ["Actividad económica"] + [f"{col.split('_')[0]}_{col.split('_')[1]}" for col in pivot.columns[1:]]
-
-        # Sort columns alphabetically (except first)
         pivot = pivot[["Actividad económica"] + sorted([c for c in pivot.columns if c != "Actividad económica"])]
-
-        # Save to regional folder with _Regional suffix
         csv_path = os.path.join(regional_folder, f"{code}_Regional.csv")
         pivot.to_csv(csv_path, index=False)
 
