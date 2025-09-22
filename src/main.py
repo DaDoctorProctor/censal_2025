@@ -34,8 +34,10 @@ def sanitize_filename(code_and_name):
     return s
 
 def clean_sectores_column(df):
-    # Remove any "Sector XX" or "Sector XX-YY" pattern anywhere in the string
-    df["Sectores"] = df["Sectores"].apply(lambda x: re.sub(r'Sector\s*\d+(-\d+)?\s*', '', str(x)))
+    # Remove any "Sector XX" or "Sector XX-YY" pattern in 'Actividad económica'
+    df["Actividad económica"] = df["Actividad económica"].apply(
+        lambda x: re.sub(r'Sector\s*\d+(-\d+)?\s*', '', str(x))
+    )
     return df
 
 def add_total_row(df):
@@ -48,7 +50,9 @@ def add_total_row(df):
     return pd.concat([df, pd.DataFrame([total_row])], ignore_index=True)
 
 def process_variable(df, variable, regions):
-    # Build region-year aggregated pivot for the variable
+    """
+    Build region-year aggregated pivot for the variable
+    """
     results = []
 
     for region, municipios in regions.items():
@@ -71,32 +75,25 @@ def process_variable(df, variable, regions):
     ) if not combined.empty else pd.DataFrame()
 
     # Ensure all columns exist in order
-    # Create MultiIndex-like columns in correct order; if pivoted empty, create columns of zeros
     col_tuples = []
     for region in regions.keys():
         for year in YEARS:
             col_tuples.append((region, year))
 
     if pivoted.empty:
-        # make empty df with index from unique activities in original df (or empty)
         activities = df["Actividad económica"].unique().tolist()
         pivoted = pd.DataFrame(0, index=activities, columns=pd.MultiIndex.from_tuples(col_tuples))
     else:
-        # add missing columns
         for tup in col_tuples:
             if tup not in pivoted.columns:
                 pivoted[tup] = 0
 
-    # Reorder
     pivoted = pivoted[[ (region, year) for region in regions.keys() for year in YEARS ]]
-
-    # Flatten columns
     pivoted.columns = [f"{region}_{year}" for region, year in pivoted.columns]
     pivoted.reset_index(inplace=True)
-    pivoted.rename(columns={"Actividad económica": "Sectores", "index":"Sectores"}, inplace=True)
-    # rename first column to "Sectores"
-    if pivoted.columns[0] != "Sectores":
-        pivoted.rename(columns={pivoted.columns[0]: "Sectores"}, inplace=True)
+
+    # ✅ Keep original label for first column
+    pivoted.rename(columns={"Actividad económica": "Actividad económica"}, inplace=True)
 
     return pivoted
 
@@ -305,15 +302,76 @@ def split_by_region_with_links(filename, base_sheet, regions_local, years):
 
     wb.save(filename)
 
-# ---------- Main pipeline ----------
+# ---------- Nation/State wide CSV export ----------
+def export_nation_state_wide_csvs(df, years, output_dir):
+    csv_dir = os.path.join(output_dir, "csv")
+    os.makedirs(csv_dir, exist_ok=True)
+
+    for entidad, label in [("00 Total Nacional", "00_Total_Nacional"), ("28 Tamaulipas", "28_Tamaulipas")]:
+        df_filtered = df[(df["Entidad"] == entidad) & (df["Municipio"].str.strip() == "")]
+        if df_filtered.empty:
+            continue
+
+        # Keep only years >= 2008
+        df_filtered = df_filtered[df_filtered["Año Censal"].isin(years)]
+
+        # Determine variable columns
+        required = ["Año Censal", "Entidad", "Municipio", "Actividad económica"]
+        var_cols = [c for c in df_filtered.columns if c not in required]
+
+        # Build wide-format DataFrame
+        pivot_list = []
+        for var in var_cols:
+            temp = df_filtered.pivot_table(
+                index="Actividad económica",
+                columns="Año Censal",
+                values=var,
+                aggfunc="sum",
+                fill_value=0
+            )
+            temp.columns = [f"{var}_{int(col)}" for col in temp.columns]
+            pivot_list.append(temp)
+
+        df_wide = pd.concat(pivot_list, axis=1)
+        df_wide.reset_index(inplace=True)  # keep 'Actividad económica'
+
+        # Clean "Sector XX" from names
+        df_wide["Actividad económica"] = df_wide["Actividad económica"].apply(
+            lambda x: re.sub(r'Sector\s*\d+(-\d+)?\s*', '', str(x))
+        )
+
+        # Save CSV
+        filename_safe = sanitize_filename(label)
+        csv_path = os.path.join(csv_dir, f"{filename_safe}.csv")
+        df_wide.to_csv(csv_path, index=False)
+        print(f"Saved wide-format CSV: {csv_path}")
+
+
+# ---------------- Main pipeline ----------------
 def main():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    # Create output folders
+    csv_dir = os.path.join(OUTPUT_DIR, "csv")
+    excel_dir = os.path.join(OUTPUT_DIR, "excel")
+    os.makedirs(csv_dir, exist_ok=True)
+    os.makedirs(excel_dir, exist_ok=True)
 
     # Read CSV
-    df = pd.read_csv(INPUT_CSV, dtype=str)  # read as string initially
-
-    # Normalize column names (strip)
+    df = pd.read_csv(INPUT_CSV, dtype=str)
     df.columns = [c.strip() for c in df.columns]
+
+    # Convert Municipio to string
+    df["Municipio"] = df["Municipio"].fillna("").astype(str).str.strip()
+
+    # Keep only years >= 2008
+    df["Año Censal"] = pd.to_numeric(df["Año Censal"], errors='coerce')
+    df = df[df["Año Censal"] >= 2008]
+
+    # Adjust YEARS dynamically
+    global YEARS
+    YEARS = [year for year in YEARS if year >= 2008]
+
+    # ---------------- Nation/State wide CSVs ----------------
+    export_nation_state_wide_csvs(df, YEARS, OUTPUT_DIR)
 
     # Ensure required identifier columns exist
     required = ["Año Censal", "Entidad", "Municipio", "Actividad económica"]
@@ -321,35 +379,22 @@ def main():
         if col not in df.columns:
             raise ValueError(f"Expected column '{col}' in input CSV")
 
-    # Convert Municipio values to strings (they are used for matching)
-    df["Municipio"] = df["Municipio"].fillna("").astype(str).str.strip()
-
-    # Determine variable columns (everything after the first four)
+    # Determine variable columns
     all_cols = list(df.columns)
     var_cols = [c for c in all_cols if c not in required]
 
-    # Convert those variable columns to numeric (coerce errors to NaN -> then fill 0 where appropriate)
+    # Convert variable columns to numeric
     for v in var_cols:
         df[v] = pd.to_numeric(df[v].str.replace(',', '').str.strip(), errors='coerce').fillna(0)
 
-    # For convenience, ensure Año Censal numeric
-    df["Año Censal"] = pd.to_numeric(df["Año Censal"], errors='coerce')
-
-    # Process each variable and write its own Excel file
+    # ---------------- Regional variable CSVs & Excel ----------------
     for var in var_cols:
         print(f"Processing variable: {var}")
 
-        # Produce pivot table
         pivot = process_variable(df, var, regions)
-
-        # Clean sectores
         pivot = clean_sectores_column(pivot)
-
-        # Add total row
         pivot = add_total_row(pivot)
 
-        # Prepare output filename
-        # use the code at start of var (like Q000A or A111A) plus cleaned name
         m = re.match(r'^(\w+)\s*(.*)$', var)
         if m:
             code = m.group(1)
@@ -359,28 +404,35 @@ def main():
             name = ""
         verbose = f"{code}_{name}".strip()
         filename_safe = sanitize_filename(verbose)
-        output_path = os.path.join(OUTPUT_DIR, f"{filename_safe}.xlsx")
 
-        # Write base sheet to Excel
-        base_sheet_name = code  # use code as sheet name to keep it short
-        with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
+        # ---------------- CSV Output ----------------
+        csv_path = os.path.join(csv_dir, f"{filename_safe}.csv")
+        pivot.to_csv(csv_path, index=False)
+        print(f"Saved CSV: {csv_path}")
+
+        # ---------------- Excel Output ----------------
+        excel_path = os.path.join(excel_dir, f"{filename_safe}.xlsx")
+        base_sheet_name = code
+        with pd.ExcelWriter(excel_path, engine="openpyxl") as writer:
             pivot.to_excel(writer, sheet_name=base_sheet_name, index=False)
 
-        # Add two-row header, wrap first column, split region sheets, adjust widths, format numbers
-        add_two_row_header(output_path, base_sheet_name, regions)
-        wrap_text_first_column(output_path, base_sheet_name)
-        split_by_region_with_links(output_path, base_sheet_name, regions, YEARS)
-        adjust_first_column_and_autofit_rows(output_path, base_sheet_name, first_col_width=50, line_height=15)
-        # adjust region sheets as well
+        add_two_row_header(excel_path, base_sheet_name, regions)
+        wrap_text_first_column(excel_path, base_sheet_name)
+        split_by_region_with_links(excel_path, base_sheet_name, regions, YEARS)
+        adjust_first_column_and_autofit_rows(excel_path, base_sheet_name, first_col_width=50, line_height=15)
+
         for region in regions.keys():
             sheet_region = f"{base_sheet_name}_{region}"
-            adjust_first_column_and_autofit_rows(output_path, sheet_region, first_col_width=50, line_height=15)
-            wrap_text_first_column(output_path, sheet_region)
-        format_numbers_with_commas_all_sheets(output_path)
+            adjust_first_column_and_autofit_rows(excel_path, sheet_region, first_col_width=50, line_height=15)
+            wrap_text_first_column(excel_path, sheet_region)
 
-        print(f"Saved: {output_path}")
+        format_numbers_with_commas_all_sheets(excel_path)
+        print(f"Saved Excel: {excel_path}")
 
-    print("✅ All variables processed and saved to output/")
+    print("✅ All variables processed.")
+    print("✅ Nation and Tamaulipas CSVs exported to 'csv/' in wide pivot format")
+    print("✅ Regional variable CSVs exported to 'csv/' and Excels to 'excel/'")
+
 
 if __name__ == "__main__":
     main()

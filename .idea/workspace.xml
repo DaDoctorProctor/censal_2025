@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ba21d05-6455-452c-a1a7-f88e94fe8149" name="Changes" comment="Initial commit, includes legacy files from first version.">
+    <list default="true" id="0ba21d05-6455-452c-a1a7-f88e94fe8149" name="Changes" comment="Rewrote the code to begin the process to make it more compatible.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input/SAIC_Exporta_2025919_1928329.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/00_Total_Nacional.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/28_Tamaulipas.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/A111A_Producción_bruta_total_millones_de_pesos.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/A121A_Consumo_intermedio_millones_de_pesos.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/A131A_Valor_agregado_censal_bruto_millones_de_pesos.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/A211A_Inversión_total_millones_de_pesos.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/A221A_Formación_bruta_de_capital_fijo_millones_de_pesos.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/H001A_Personal_ocupado_total.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/Q000A_Acervo_total_de_activos_fijos_millones_de_pesos.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758524588151</updated>
-      <workItem from="1758524685983" duration="2479000" />
+      <workItem from="1758524685983" duration="10152000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, includes legacy files from first version.">
       <option name="closed" value="true" />
@@ -95,7 +99,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758524929902</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rewrote the code to begin the process to make it more compatible.">
+      <option name="closed" value="true" />
+      <created>1758527229297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758527229297</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rewrote the code to begin the process to make it more compatible.">
+      <option name="closed" value="true" />
+      <created>1758527242387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758527242387</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,9 +123,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit, includes legacy files from first version." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit, includes legacy files from first version." />
+    <MESSAGE value="Rewrote the code to begin the process to make it more compatible." />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewrote the code to begin the process to make it more compatible." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/censal_2025$main.coverage" NAME="main Coverage Results" MODIFIED="1758527069764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/censal_2025$main.coverage" NAME="main Coverage Results" MODIFIED="1758533616970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
