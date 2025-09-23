@@ -56,7 +56,7 @@ for region_name, region_path in REGIONAL_DIRS.items():
         tam_data = df_tam.drop(columns=["Actividad económica"], errors="ignore")
         region_data = df_region.drop(columns=["Actividad económica"], errors="ignore")
 
-        df_div = tam_data.values / np.where(region_data.values == 0, np.nan, region_data.values)
+        df_div = region_data.values / np.where(tam_data.values == 0, np.nan, tam_data.values)
         df_result = pd.concat([df_result, pd.DataFrame(df_div, columns=tam_data.columns)], axis=1)
 
         # 👉 Nombre del archivo con la región incluida

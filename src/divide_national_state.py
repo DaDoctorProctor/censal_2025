@@ -28,7 +28,7 @@ for var in VARIABLES:
         if col != "Actividad económica":
             if col in df_tam.columns:
                 # División segura, reemplaza inf o división por 0
-                df_result[col] = df_nac[col] / df_tam[col].replace({0: np.nan})
+                df_result[col] = df_tam[col].replace({0: np.nan}) / df_nac[col]
             else:
                 df_result[col] = np.nan
 

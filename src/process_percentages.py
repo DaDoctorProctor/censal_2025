@@ -65,17 +65,17 @@ for file in regional_files:
 
 # -------- New proportional folders ----------
 
-# 1. proportional_national_state
-prop_nat_files = glob.glob("output/csv/proportional_national_state/*.csv")
-for file in prop_nat_files:
-    process_csv_last_row(file)
-
-# 2. proportional_state_regions (subfolders)
-prop_state_files = glob.glob("output/csv/proportional_state_regions/**/*.csv", recursive=True)
-for file in prop_state_files:
-    process_csv_last_row(file)
-
-# 3. proportional_region_weight (subfolders)
-prop_weight_files = glob.glob("output/csv/proportional_region_weight/**/*.csv", recursive=True)
-for file in prop_weight_files:
-    process_csv_last_row(file)
+# # 1. proportional_national_state
+# prop_nat_files = glob.glob("output/csv/proportional_national_state/*.csv")
+# for file in prop_nat_files:
+#     process_csv_last_row(file)
+#
+# # 2. proportional_state_regions (subfolders)
+# prop_state_files = glob.glob("output/csv/proportional_state_regions/**/*.csv", recursive=True)
+# for file in prop_state_files:
+#     process_csv_last_row(file)
+#
+# # 3. proportional_region_weight (subfolders)
+# prop_weight_files = glob.glob("output/csv/proportional_region_weight/**/*.csv", recursive=True)
+# for file in prop_weight_files:
+#     process_csv_last_row(file)
