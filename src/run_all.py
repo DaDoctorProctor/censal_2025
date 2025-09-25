@@ -6,8 +6,8 @@ scripts = [
     "divide_national_state.py", # Divide (National / Estatal)
     "split_regional.py", # Split regions into subfolders with each region name ready to divide
     "divide_state_region.py", # Divide (Estatal / Regional)
-    #"divide_nation_state_state_region.py", # Divide (Nacional / Estatal) / (Estatal / Regional)
-    "divide_regional_national.py",
+    "divide_nation_state_state_region.py", # Divide (Nacional / Estatal) / (Estatal / Regional)
+    #"divide_regional_national.py",
     "process_percentages.py"
     # Patch the values into percentages
     # Add other scripts here: "other_script.py", etc.

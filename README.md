@@ -1,9 +1,7 @@
-README.MD
-
 # Glosario de variables
 
-The CSV files in this dataset use shortened headers in the format: VariableCode_Year.
-The descriptive text has been removed to save space. The following glossary maps each code to its full description.
+Los archivos CSV de este conjunto de datos usan encabezados abreviados con el formato: CódigoVariable_Año.
+El texto descriptivo se eliminó para ahorrar espacio. El siguiente glosario relaciona cada código con su descripción completa.
 
 
 * A111A: Producción bruta total (millones de pesos)
@@ -14,12 +12,12 @@ The descriptive text has been removed to save space. The following glossary maps
 * H001A: Personal ocupado total
 * Q000A: Acervo total de activos fijos (millones de pesos)
 
-# Notes
-- "Actividad económica" column retains the cleaned sector names without the "Sector XX" prefix.
-- Years are appended to the variable code for each column, e.g., H001A_2008, A111A_2013.
-- CSV files for 00_Total_Nacional and 28_Tamaulipas are split by variable in their respective subfolders.
+# Notas
+- La columna "Actividad económica" conserva los nombres de sector depurados sin el prefijo "Sector XX".
+- Los años se agregan al código de variable en cada columna, p. ej., H001A_2008, A111A_2013.
+- Los archivos CSV de 00_Total_Nacional y 28_Tamaulipas están divididos por variable en sus respectivas subcarpetas.
 
-# **Obtencion de las proporciones** 
+# **Obtención de las proporciones** 
 (Estatal / Nacional)
 
 1. A111A (Producción bruta total estatal / nacional) = Proporción del peso del estado en la producción bruta total nacional
@@ -44,12 +42,7 @@ The descriptive text has been removed to save space. The following glossary maps
 # IDE
 - PyCharm 
 
-
-Frontera Norte del Pais	2006 - 2024	4to trimestre	suma de todos los 4to trimestres
-Baja California			
-Coahuila			
-Chihuahua			
-Nuevo Leon			
-Sonora			
-Tamaulipas			
+# Base de datos
+https://www.inegi.org.mx/app/saic/
+		
 	
