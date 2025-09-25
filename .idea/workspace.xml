@@ -4,10 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ba21d05-6455-452c-a1a7-f88e94fe8149" name="Changes" comment="Rearranged project files.">
-      <change afterPath="$PROJECT_DIR$/src/divide2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final.py" afterDir="false" />
+    <list default="true" id="0ba21d05-6455-452c-a1a7-f88e94fe8149" name="Changes" comment="Replaced variable A211A to A131A.">
+      <change afterPath="$PROJECT_DIR$/src/process_percentages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clear.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/clc_output_folder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divide.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/divide_national_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/divide2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/divide_state_region.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/divide_nation_state_state_region.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Centro/A111A_Centro_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Centro/A111A_Centro_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Centro/A121A_Centro_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Centro/A121A_Centro_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Centro/A131A_Centro_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Centro/A131A_Centro_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Centro/A221A_Centro_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Centro/A221A_Centro_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Frontera/A111A_Frontera_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Frontera/A111A_Frontera_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Frontera/A121A_Frontera_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Frontera/A121A_Frontera_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Frontera/A131A_Frontera_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Frontera/A131A_Frontera_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Frontera/A221A_Frontera_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Frontera/A221A_Frontera_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Mante/A111A_Mante_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Mante/A111A_Mante_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Mante/A121A_Mante_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Mante/A121A_Mante_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Mante/A131A_Mante_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Mante/A131A_Mante_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Mante/A221A_Mante_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Mante/A221A_Mante_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Matamoros/A111A_Matamoros_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Matamoros/A111A_Matamoros_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Matamoros/A121A_Matamoros_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Matamoros/A121A_Matamoros_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Matamoros/A131A_Matamoros_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Matamoros/A131A_Matamoros_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Matamoros/A221A_Matamoros_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Matamoros/A221A_Matamoros_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Reynosa/A111A_Reynosa_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Reynosa/A111A_Reynosa_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Reynosa/A121A_Reynosa_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Reynosa/A121A_Reynosa_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Reynosa/A131A_Reynosa_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Reynosa/A131A_Reynosa_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Reynosa/A221A_Reynosa_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Reynosa/A221A_Reynosa_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Ribereña/A111A_Ribereña_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Ribereña/A111A_Ribereña_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Ribereña/A121A_Ribereña_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Ribereña/A121A_Ribereña_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Ribereña/A131A_Ribereña_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Ribereña/A131A_Ribereña_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Ribereña/A221A_Ribereña_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Ribereña/A221A_Ribereña_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Sur/A111A_Sur_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Sur/A111A_Sur_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Sur/A121A_Sur_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Sur/A121A_Sur_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Sur/A131A_Sur_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Sur/A131A_Sur_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/csv/prop_state_regions/Sur/A221A_Sur_proportional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Sur/A221A_Sur_proportional.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/regional.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/split_regional.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/run_all.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +89,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.clc_output_folder.executor": "Run",
     "Python.clear.executor": "Run",
     "Python.divide.executor": "Run",
     "Python.divide2.executor": "Run",
     "Python.final.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.process_percentages.executor": "Run",
+    "Python.process_saic.executor": "Run",
     "Python.regional.executor": "Run",
     "Python.run_all.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -82,6 +118,7 @@
       <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025\src" />
       <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025" />
     </key>
   </component>
@@ -100,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758524588151</updated>
-      <workItem from="1758524685983" duration="18377000" />
+      <workItem from="1758524685983" duration="29677000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, includes legacy files from first version.">
       <option name="closed" value="true" />
@@ -166,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758539529081</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1st working version.">
+      <option name="closed" value="true" />
+      <created>1758558101707</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758558101707</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Replaced variable A211A to A131A.">
+      <option name="closed" value="true" />
+      <created>1758563456024</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1758563456024</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,15 +243,20 @@
     <MESSAGE value="Finished the .csv files." />
     <MESSAGE value="Added the divide script." />
     <MESSAGE value="Rearranged project files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rearranged project files." />
+    <MESSAGE value="1st working version." />
+    <MESSAGE value="Replaced variable A211A to A131A." />
+    <option name="LAST_COMMIT_MESSAGE" value="Replaced variable A211A to A131A." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/censal_2025$process_percentages.coverage" NAME="process_percentages Coverage Results" MODIFIED="1758570589524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$main.coverage" NAME="main Coverage Results" MODIFIED="1758537843210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/censal_2025$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1758542331249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/censal_2025$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1758570659998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/censal_2025$process_saic.coverage" NAME="process_saic Coverage Results" MODIFIED="1758562769089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$regional.coverage" NAME="regional Coverage Results" MODIFIED="1758541543625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$final.coverage" NAME="final Coverage Results" MODIFIED="1758542230134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/censal_2025$clc_output_folder.coverage" NAME="clc_output_folder Coverage Results" MODIFIED="1758570291788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$divide2.coverage" NAME="divide2 Coverage Results" MODIFIED="1758541566964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/censal_2025$clear.coverage" NAME="clear Coverage Results" MODIFIED="1758541511559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/censal_2025$divide.coverage" NAME="divide Coverage Results" MODIFIED="1758538485731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/censal_2025$clear.coverage" NAME="clear Coverage Results" MODIFIED="1758562912686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/censal_2025$divide.coverage" NAME="divide Coverage Results" MODIFIED="1758562787861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
