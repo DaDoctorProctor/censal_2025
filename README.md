@@ -11,12 +11,7 @@ El texto descriptivo se eliminó para ahorrar espacio. El siguiente glosario rel
 * A221A: Formación bruta de capital fijo (millones de pesos)
 * H001A: Personal ocupado total
 * Q000A: Acervo total de activos fijos (millones de pesos)
-
-# Notas
-- La columna "Actividad económica" conserva los nombres de sector depurados sin el prefijo "Sector XX".
-- Los años se agregan al código de variable en cada columna, p. ej., H001A_2008, A111A_2013.
-- Los archivos CSV de 00_Total_Nacional y 28_Tamaulipas están divididos por variable en sus respectivas subcarpetas.
-
+* 
 # **Obtención de las proporciones** 
 (Estatal / Nacional)
 
@@ -32,12 +27,31 @@ El texto descriptivo se eliminó para ahorrar espacio. El siguiente glosario rel
 3. A131A (Valor agregado censal bruto regional / estatal) = Proporción del peso de la región en el valor agregado censal bruto estatal
 4. A221A (Formación bruta de capital fijo regional / estatal) = Proporción del peso de la región en la formación bruta de capital fijo estatal
 
-(Región / Nacional)
 
-1. A111A (Producción bruta total regional / nacional) = Proporción del peso de la región en la producción bruta total nacional
-2. A121A (Consumo intermedio regional / nacional) = Proporción del peso de la región en el consumo intermedio nacional
-3. A131A (Valor agregado censal bruto regional / nacional) = Proporción del peso de la región en el valor agregado censal bruto nacional
-4. A221A (Formación bruta de capital fijo regional / nacional) = Proporción del peso de la región en la formación bruta de capital fijo nacional
+# Problemas con la base de datos:
+En todo momento el INEGI omite datos de mineria del Estado de Tamaulipas.
+Ciudad Madero es un caso especial porque especificamente el INEGO se dio la tarea de eliminar todo rastro de estadistica censal
+de minera y petrolera. La suma de Ciudad Madero con cifras oficiales hace que Mineria y petroleo de 0. 
+
+Variable checksum indica lo que suma todo los valores de los sectores en una columna.
+
+# Interpretacion 
+
+# Ejemplo 1: Valores nulos o confidenciales
+A continuación se muestra la fila “Sector 21 Minería” tomada del archivo municipal 009 Ciudad Madero.csv, mostrando únicamente las columnas A131 y usando exactamente los encabezados de la fila 1.
+
+| Actividad Economica | A131A_2003 | A131A_2008 | A131A_2013 | A131A_2018 | A131A_2023 |
+|---|---|---|---|---|---|
+| Sector 21 Minería |  |  |  |  |  |
+
+Como se observa faltan valores que son considerados como "nulos" o para terminos economicos confidenciales. Esto significa que la
+industria esta presente en el municipio de Ciudad Madero pero los datos son confidenciales o no disponibles de manera publica.
+
+# Ejemplo 2: Falta de una industria en un municipio.
+
+Nota: Los valores se encuentran vacíos en el archivo fuente, reflejando que el INEGI omitió/depuró estos datos para Ciudad Madero.
+
+Tome el ejemplo de Victoria. El municipio cuenta con un sector que es considerado raro en el Estado 
 
 # IDE
 - PyCharm 
@@ -46,3 +60,7 @@ El texto descriptivo se eliminó para ahorrar espacio. El siguiente glosario rel
 https://www.inegi.org.mx/app/saic/
 		
 	
+# Autor 
+Homero P. Mata
+Freelancer
+Desarrollado para la Secretaria de Economia de Tamaulipas
