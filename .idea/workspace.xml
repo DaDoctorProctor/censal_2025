@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ba21d05-6455-452c-a1a7-f88e94fe8149" name="Changes" comment="Reworked the entire code. Fixed key problems regarding the totals. Now official totals by SAIC are used for municipio,estado and nation. Added logic to detect if a data is confidential (C) or the industry does not exist in the region (N/A). Only applies for the 041 Victoria.csv region file.">
-      <change afterPath="$PROJECT_DIR$/src/input/images/readme/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+    <list default="true" id="0ba21d05-6455-452c-a1a7-f88e94fe8149" name="Changes" comment="Updated the logic for the regional calculation with N/A and + C.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/00_Total_Nacional/00_Total_Nacional.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/00_Total_Nacional/00_Total_Nacional.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/001 Abasolo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/001 Abasolo.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/002 Aldama.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/002 Aldama.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/003 Altamira.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/003 Altamira.csv" afterDir="false" />
@@ -61,6 +58,7 @@
       <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Reynosa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Reynosa.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Ribereña.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Ribereña.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Sur.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Sur.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tamaulipas/28_Tamaulipas.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tamaulipas/28_Tamaulipas.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +183,7 @@
       <workItem from="1758961869170" duration="732000" />
       <workItem from="1758962614942" duration="4506000" />
       <workItem from="1759001338330" duration="972000" />
-      <workItem from="1759161660860" duration="3907000" />
+      <workItem from="1759161660860" duration="18415000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, includes legacy files from first version.">
       <option name="closed" value="true" />
@@ -299,7 +297,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758824127300</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated the logic for the regional calculation with N/A and + C.">
+      <option name="closed" value="true" />
+      <created>1759166812417</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1759166812417</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated the logic for the regional calculation with N/A and + C.">
+      <option name="closed" value="true" />
+      <created>1759166821994</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1759166821994</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,12 +342,13 @@
     <MESSAGE value="Has an error in the proportional values to nation/state/region. The order in which the operation is performed has to be checked." />
     <MESSAGE value="Fixed the proportional issue. Formulas are inverted now: (state/nation), (region/state), (region/nation)." />
     <MESSAGE value="Prob did something" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prob did something" />
+    <MESSAGE value="Updated the logic for the regional calculation with N/A and + C." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the logic for the regional calculation with N/A and + C." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/censal_2025$test.coverage" NAME="test Coverage Results" MODIFIED="1758574237133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1758651796731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/censal_2025$main.coverage" NAME="main Coverage Results" MODIFIED="1759166653488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/censal_2025$main.coverage" NAME="main Coverage Results" MODIFIED="1759179007597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$sdsd.coverage" NAME="sdsd Coverage Results" MODIFIED="1758574347559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$divide_nation_state_state_region.coverage" NAME="divide_nation_state_state_region Coverage Results" MODIFIED="1758651776464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$clear.coverage" NAME="clear Coverage Results" MODIFIED="1758562912686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
