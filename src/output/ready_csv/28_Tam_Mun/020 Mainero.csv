@@ -1,11 +1,11 @@
 Actividad Economica,A111A_2003,A111A_2008,A111A_2013,A111A_2018,A111A_2023,A121A_2003,A121A_2008,A121A_2013,A121A_2018,A121A_2023,A131A_2003,A131A_2008,A131A_2013,A131A_2018,A131A_2023,A211A_2003,A211A_2008,A211A_2013,A211A_2018,A211A_2023,A221A_2003,A221A_2008,A221A_2013,A221A_2018,A221A_2023,H001A_2003,H001A_2008,H001A_2013,H001A_2018,H001A_2023,Q000A_2003,Q000A_2008,Q000A_2013,Q000A_2018,Q000A_2023
-"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 31-33 Industrias manufactureras,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 43 Comercio al por mayor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 46 Comercio al por menor,,0.557,0.687,,,,0.152,0.29,,,,0.405,0.397,,,,0.016,-0.007,,,,0.0,0.079,,,,14.0,11.0,,,,0.382,1.277,,
-Sector 62 Servicios de salud y de asistencia social,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,,,,,0.953,,,,,0.394,,,,,0.559,,,,,0.0,,,,,0.0,,,,,6.0,,,,,1.193
-Sector 81 Otros servicios excepto actividades gubernamentales,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+Sector 31-33 Industrias manufactureras,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+Sector 43 Comercio al por mayor,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A
+Sector 46 Comercio al por menor,C,0.557,0.687,C,C,C,0.152,0.29,C,C,C,0.405,0.397,C,C,C,0.016,-0.007,C,C,C,0.0,0.079,C,C,C,14.0,11.0,C,C,C,0.382,1.277,C,C
+Sector 62 Servicios de salud y de asistencia social,N/A,C,C,N/A,C,N/A,C,C,N/A,C,N/A,C,C,N/A,C,N/A,C,C,N/A,C,N/A,C,C,N/A,C,N/A,C,C,N/A,C,N/A,C,C,N/A,C
+"Sector 71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,C,C,C,C,0.953,C,C,C,C,0.394,C,C,C,C,0.559,C,C,C,C,0.0,C,C,C,C,0.0,C,C,C,C,6.0,C,C,C,C,1.193
+Sector 81 Otros servicios excepto actividades gubernamentales,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 Total 020 Mainero,1.045,,6.488,,9.939,0.464,,0.984,,5.078,0.581,,5.504,,4.861,0.011,,-4.505,,0.181,0.0,,-4.385,,0.068,22.0,,36.0,,53.0,1.006,,8.143,,3.308
-checksum,,0.557,0.687,,0.953,,0.152,0.29,,0.394,,0.405,0.397,,0.559,,0.016,-0.007,,0,,0,0.079,,0,,14,11,,6,,0.382,1.277,,1.193
+checksum,0 + 6C,0.557 + 7C,0.687 + 7C,0 + 6C,0.953 + 6C,0 + 6C,0.152 + 7C,0.29 + 7C,0 + 6C,0.394 + 6C,0 + 6C,0.405 + 7C,0.397 + 7C,0 + 6C,0.559 + 6C,0 + 6C,0.016 + 7C,-0.007 + 7C,0 + 6C,0 + 6C,0 + 6C,0 + 7C,0.079 + 7C,0 + 6C,0 + 6C,0 + 6C,14 + 7C,11 + 7C,0 + 6C,6 + 6C,0 + 6C,0.382 + 7C,1.277 + 7C,0 + 6C,1.193 + 6C

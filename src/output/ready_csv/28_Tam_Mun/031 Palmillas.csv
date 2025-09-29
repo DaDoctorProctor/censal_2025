@@ -1,12 +1,12 @@
 Actividad Economica,A111A_2003,A111A_2008,A111A_2013,A111A_2018,A111A_2023,A121A_2003,A121A_2008,A121A_2013,A121A_2018,A121A_2023,A131A_2003,A131A_2008,A131A_2013,A131A_2018,A131A_2023,A211A_2003,A211A_2008,A211A_2013,A211A_2018,A211A_2023,A221A_2003,A221A_2008,A221A_2013,A221A_2018,A221A_2023,H001A_2003,H001A_2008,H001A_2013,H001A_2018,H001A_2023,Q000A_2003,Q000A_2008,Q000A_2013,Q000A_2018,Q000A_2023
-"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 31-33 Industrias manufactureras,,1.457,2.405,2.567,6.192,,0.702,1.556,2.001,3.448,,0.755,0.849,0.566,2.744,,0.014,0.034,0.0,0.008,,0.014,0.031,0.0,0.0,,15.0,33.0,14.0,10.0,,0.689,1.271,0.406,0.684
-Sector 43 Comercio al por mayor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+Sector 31-33 Industrias manufactureras,C,1.457,2.405,2.567,6.192,C,0.702,1.556,2.001,3.448,C,0.755,0.849,0.566,2.744,C,0.014,0.034,0.0,0.008,C,0.014,0.031,0.0,0.0,C,15.0,33.0,14.0,10.0,C,0.689,1.271,0.406,0.684
+Sector 43 Comercio al por mayor,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 Sector 46 Comercio al por menor,0.626,1.001,1.657,23.127,39.157,0.1,0.369,0.665,7.135,2.134,0.526,0.632,0.992,15.992,37.023,0.02,0.012,-0.55,1.115,0.55,0.0,0.012,0.207,0.218,0.457,25.0,33.0,45.0,66.0,51.0,0.684,1.338,9.953,3.972,5.284
-Sector 51 Información en medios masivos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 52 Servicios financieros y de seguros,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,0.87,1.481,,0.592,2.242,0.39,0.495,,0.459,1.621,0.48,0.986,,0.133,0.621,0.014,0.005,,0.0,0.0,0.0,0.005,,0.0,0.0,17.0,12.0,,11.0,7.0,0.745,0.745,,0.09,0.182
-Sector 81 Otros servicios excepto actividades gubernamentales,0.317,,0.451,,,0.184,,0.276,,,0.133,,0.175,,,0.001,,0.008,,,0.0,,0.008,,,6.0,,7.0,,,0.135,,0.331,,
+Sector 51 Información en medios masivos,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A
+Sector 52 Servicios financieros y de seguros,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C
+"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C
+Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,0.87,1.481,C,0.592,2.242,0.39,0.495,C,0.459,1.621,0.48,0.986,C,0.133,0.621,0.014,0.005,C,0.0,0.0,0.0,0.005,C,0.0,0.0,17.0,12.0,C,11.0,7.0,0.745,0.745,C,0.09,0.182
+Sector 81 Otros servicios excepto actividades gubernamentales,0.317,C,0.451,C,C,0.184,C,0.276,C,C,0.133,C,0.175,C,C,0.001,C,0.008,C,C,0.0,C,0.008,C,C,6.0,C,7.0,C,C,0.135,C,0.331,C,C
 Total 031 Palmillas,2.641,4.821,6.498,29.411,52.549,1.112,2.069,3.47,10.84,9.639,1.529,2.752,3.028,18.571,42.91,0.04,0.034,-0.424,1.835,0.558,0.0,0.034,0.329,0.218,0.457,61.0,76.0,108.0,110.0,81.0,2.219,6.544,13.511,8.28,7.659
-checksum,1.813,3.939,4.513,26.286,47.591,0.674,1.566,2.497,9.595,7.203,1.139,2.373,2.016,16.691,40.388,0.035,0.031,-0.508,1.115,0.558,0,0.031,0.246,0.218,0.457,48,60,85,91,68,1.564,2.772,11.555,4.468,6.15
+checksum,1.813 + 3C,3.939 + 4C,4.513 + 6C,26.286 + 5C,47.591 + 5C,0.674 + 3C,1.566 + 4C,2.497 + 6C,9.595 + 5C,7.203 + 5C,1.139 + 3C,2.373 + 4C,2.016 + 6C,16.691 + 5C,40.388 + 5C,0.035 + 3C,0.031 + 4C,-0.508 + 6C,1.115 + 5C,0.558 + 5C,0 + 3C,0.031 + 4C,0.246 + 6C,0.218 + 5C,0.457 + 5C,48 + 3C,60 + 4C,85 + 6C,91 + 5C,68 + 5C,1.564 + 3C,2.772 + 4C,11.555 + 6C,4.468 + 5C,6.15 + 5C

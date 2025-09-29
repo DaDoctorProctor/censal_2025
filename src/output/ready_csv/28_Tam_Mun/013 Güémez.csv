@@ -1,15 +1,15 @@
 Actividad Economica,A111A_2003,A111A_2008,A111A_2013,A111A_2018,A111A_2023,A121A_2003,A121A_2008,A121A_2013,A121A_2018,A121A_2023,A131A_2003,A131A_2008,A131A_2013,A131A_2018,A131A_2023,A211A_2003,A211A_2008,A211A_2013,A211A_2018,A211A_2023,A221A_2003,A221A_2008,A221A_2013,A221A_2018,A221A_2023,H001A_2003,H001A_2008,H001A_2013,H001A_2018,H001A_2023,Q000A_2003,Q000A_2008,Q000A_2013,Q000A_2018,Q000A_2023
-"Sector 11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 31-33 Industrias manufactureras,,72.683,,1.637,2.342,,54.311,,0.833,1.249,,18.372,,0.804,1.093,,-0.085,,0.0,0.0,,1.132,,0.0,0.0,,206.0,,13.0,20.0,,25.726,,0.315,0.536
-Sector 43 Comercio al por mayor,,,,,197.257,,,,,72.816,,,,,124.441,,,,,38.609,,,,,3.098,,,,,201.0,,,,,177.528
+"Sector 11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A
+"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+Sector 31-33 Industrias manufactureras,C,72.683,C,1.637,2.342,C,54.311,C,0.833,1.249,C,18.372,C,0.804,1.093,C,-0.085,C,0.0,0.0,C,1.132,C,0.0,0.0,C,206.0,C,13.0,20.0,C,25.726,C,0.315,0.536
+Sector 43 Comercio al por mayor,C,C,C,C,197.257,C,C,C,C,72.816,C,C,C,C,124.441,C,C,C,C,38.609,C,C,C,C,3.098,C,C,C,C,201.0,C,C,C,C,177.528
 Sector 46 Comercio al por menor,4.239,9.437,20.013,30.215,62.468,0.718,3.899,6.543,6.098,31.227,3.521,5.538,13.47,24.117,31.241,0.062,0.767,2.075,1.214,1.911,0.0,0.399,0.799,1.064,1.309,38.0,68.0,101.0,83.0,145.0,1.263,6.616,13.067,12.924,45.646
-"Sector 48-49 Transportes, correos y almacenamiento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 62 Servicios de salud y de asistencia social,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,,1.779,0.575,1.149,16.041,,1.0,0.475,0.695,3.24,,0.779,0.1,0.454,12.801,,0.0,0.001,0.03,0.017,,0.0,0.0,0.03,0.017,,19.0,25.0,13.0,56.0,,0.398,0.17,0.071,3.077
+"Sector 48-49 Transportes, correos y almacenamiento",C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+Sector 53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A
+"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A
+Sector 62 Servicios de salud y de asistencia social,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C
+"Sector 71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A
+Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,C,1.779,0.575,1.149,16.041,C,1.0,0.475,0.695,3.24,C,0.779,0.1,0.454,12.801,C,0.0,0.001,0.03,0.017,C,0.0,0.0,0.03,0.017,C,19.0,25.0,13.0,56.0,C,0.398,0.17,0.071,3.077
 Sector 81 Otros servicios excepto actividades gubernamentales,0.07,37.092,32.423,18.571,0.813,0.034,20.673,14.135,6.899,0.246,0.036,16.419,18.288,11.672,0.567,0.0,2.641,1.265,0.0,0.05,0.0,2.631,1.294,0.0,0.0,3.0,111.0,43.0,213.0,13.0,0.029,14.025,30.669,14.249,0.613
 Total 013 Güémez,103.732,203.935,108.111,443.248,1327.631,36.947,97.484,41.972,196.23,532.514,66.785,106.451,66.139,247.018,795.117,16.727,109.82,7.0,0.592,40.632,13.133,110.667,5.489,1.311,4.469,394.0,504.0,318.0,531.0,510.0,78.01,166.351,64.381,301.993,5179.519
-checksum,4.309,120.991,53.011,51.572,278.921,0.752,79.883,21.153,14.525,108.778,3.557,41.108,31.858,37.047,170.143,0.062,3.323,3.341,1.244,40.587,0,4.162,2.093,1.094,4.424,41,404,169,322,435,1.292,46.765,43.906,27.559,227.4
+checksum,4.309 + 7C,120.991 + 6C,53.011 + 8C,51.572 + 4C,278.921 + 3C,0.752 + 7C,79.883 + 6C,21.153 + 8C,14.525 + 4C,108.778 + 3C,3.557 + 7C,41.108 + 6C,31.858 + 8C,37.047 + 4C,170.143 + 3C,0.062 + 7C,3.323 + 6C,3.341 + 8C,1.244 + 4C,40.587 + 3C,0 + 7C,4.162 + 6C,2.093 + 8C,1.094 + 4C,4.424 + 3C,41 + 7C,404 + 6C,169 + 8C,322 + 4C,435 + 3C,1.292 + 7C,46.765 + 6C,43.906 + 8C,27.559 + 4C,227.4 + 3C

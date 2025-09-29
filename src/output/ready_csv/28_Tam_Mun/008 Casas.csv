@@ -1,13 +1,13 @@
 Actividad Economica,A111A_2003,A111A_2008,A111A_2013,A111A_2018,A111A_2023,A121A_2003,A121A_2008,A121A_2013,A121A_2018,A121A_2023,A131A_2003,A131A_2008,A131A_2013,A131A_2018,A131A_2023,A211A_2003,A211A_2008,A211A_2013,A211A_2018,A211A_2023,A221A_2003,A221A_2008,A221A_2013,A221A_2018,A221A_2023,H001A_2003,H001A_2008,H001A_2013,H001A_2018,H001A_2023,Q000A_2003,Q000A_2008,Q000A_2013,Q000A_2018,Q000A_2023
-"Sector 11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 31-33 Industrias manufactureras,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 43 Comercio al por mayor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 46 Comercio al por menor,1.21,,1.062,2.625,5.607,0.192,,0.233,0.162,0.805,1.018,,0.829,2.463,4.802,0.124,,0.046,-0.044,0.847,0.0,,0.015,-0.02,0.923,26.0,,19.0,21.0,52.0,0.813,,0.502,2.14,1.949
-"Sector 54 Servicios profesionales, científicos y técnicos",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,,1.121,,,2.858,,0.387,,,1.481,,0.734,,,1.377,,-0.024,,,0.081,,0.001,,,0.086,,21.0,,,11.0,,1.298,,,0.189
-Sector 81 Otros servicios excepto actividades gubernamentales,0.226,,,,0.523,0.085,,,,0.243,0.141,,,,0.28,0.005,,,,0.145,0.004,,,,0.145,5.0,,,,5.0,0.465,,,,0.201
+"Sector 11 Agricultura, cría y explotación de animales, aprovechamiento forestal, pesca y caza",C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+Sector 31-33 Industrias manufactureras,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C
+Sector 43 Comercio al por mayor,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+Sector 46 Comercio al por menor,1.21,C,1.062,2.625,5.607,0.192,C,0.233,0.162,0.805,1.018,C,0.829,2.463,4.802,0.124,C,0.046,-0.044,0.847,0.0,C,0.015,-0.02,0.923,26.0,C,19.0,21.0,52.0,0.813,C,0.502,2.14,1.949
+"Sector 54 Servicios profesionales, científicos y técnicos",C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A
+"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A
+"Sector 71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A
+Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,C,1.121,C,C,2.858,C,0.387,C,C,1.481,C,0.734,C,C,1.377,C,-0.024,C,C,0.081,C,0.001,C,C,0.086,C,21.0,C,C,11.0,C,1.298,C,C,0.189
+Sector 81 Otros servicios excepto actividades gubernamentales,0.226,C,C,C,0.523,0.085,C,C,C,0.243,0.141,C,C,C,0.28,0.005,C,C,C,0.145,0.004,C,C,C,0.145,5.0,C,C,C,5.0,0.465,C,C,C,0.201
 Total 008 Casas,3.658,3.343,3.468,9.432,19.637,1.445,1.371,1.432,1.436,3.905,2.213,1.972,2.036,7.996,15.732,-0.518,0.073,0.086,-0.036,1.128,0.018,0.044,0.055,0.01,1.209,80.0,115.0,74.0,65.0,103.0,6.448,12.379,2.041,6.402,4.756
-checksum,1.436,1.121,1.062,2.625,8.988,0.277,0.387,0.233,0.162,2.529,1.159,0.734,0.829,2.463,6.459,0.129,-0.024,0.046,-0.044,1.073,0.004,0.001,0.015,-0.02,1.154,31,21,19,21,68,1.278,1.298,0.502,2.14,2.339
+checksum,1.436 + 6C,1.121 + 7C,1.062 + 6C,2.625 + 5C,8.988 + 4C,0.277 + 6C,0.387 + 7C,0.233 + 6C,0.162 + 5C,2.529 + 4C,1.159 + 6C,0.734 + 7C,0.829 + 6C,2.463 + 5C,6.459 + 4C,0.129 + 6C,-0.024 + 7C,0.046 + 6C,-0.044 + 5C,1.073 + 4C,0.004 + 6C,0.001 + 7C,0.015 + 6C,-0.02 + 5C,1.154 + 4C,31 + 6C,21 + 7C,19 + 6C,21 + 5C,68 + 4C,1.278 + 6C,1.298 + 7C,0.502 + 6C,2.14 + 5C,2.339 + 4C

@@ -1,13 +1,13 @@
 Actividad Economica,A111A_2003,A111A_2008,A111A_2013,A111A_2018,A111A_2023,A121A_2003,A121A_2008,A121A_2013,A121A_2018,A121A_2023,A131A_2003,A131A_2008,A131A_2013,A131A_2018,A131A_2023,A211A_2003,A211A_2008,A211A_2013,A211A_2018,A211A_2023,A221A_2003,A221A_2008,A221A_2013,A221A_2018,A221A_2023,H001A_2003,H001A_2008,H001A_2013,H001A_2018,H001A_2023,Q000A_2003,Q000A_2008,Q000A_2013,Q000A_2018,Q000A_2023
-"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 31-33 Industrias manufactureras,,2.321,1.709,2.058,11.958,,1.143,0.69,1.349,7.75,,1.178,1.019,0.709,4.208,,0.007,0.001,0.116,-0.268,,0.0,0.001,0.125,-0.234,,15.0,26.0,36.0,45.0,,0.475,0.695,1.507,3.176
-Sector 43 Comercio al por mayor,,0.3,,,,,0.138,,,,,0.162,,,,,0.022,,,,,0.0,,,,,13.0,,,,,1.246,,,
+"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+Sector 31-33 Industrias manufactureras,C,2.321,1.709,2.058,11.958,C,1.143,0.69,1.349,7.75,C,1.178,1.019,0.709,4.208,C,0.007,0.001,0.116,-0.268,C,0.0,0.001,0.125,-0.234,C,15.0,26.0,36.0,45.0,C,0.475,0.695,1.507,3.176
+Sector 43 Comercio al por mayor,C,0.3,C,C,C,C,0.138,C,C,C,C,0.162,C,C,C,C,0.022,C,C,C,C,0.0,C,C,C,C,13.0,C,C,C,C,1.246,C,C,C
 Sector 46 Comercio al por menor,2.436,1.115,1.63,6.354,5.991,0.639,0.464,0.304,2.354,1.521,1.797,0.651,1.326,4.0,4.47,0.0,0.04,0.024,0.091,-0.129,0.005,0.005,0.0,0.135,-0.141,66.0,61.0,80.0,100.0,96.0,3.254,3.013,1.568,7.791,5.547
-Sector 52 Servicios financieros y de seguros,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 61 Servicios educativos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 62 Servicios de salud y de asistencia social,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sector 52 Servicios financieros y de seguros,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A
+"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A
+Sector 61 Servicios educativos,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A
+Sector 62 Servicios de salud y de asistencia social,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A
 Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,0.539,0.793,1.155,1.391,7.142,0.387,0.686,0.652,0.681,3.286,0.152,0.107,0.503,0.71,3.856,0.0,0.0,0.008,0.011,-0.203,0.0,0.0,0.006,0.012,-0.12,7.0,9.0,19.0,12.0,46.0,0.043,0.849,1.777,7.023,22.279
-Sector 81 Otros servicios excepto actividades gubernamentales,,,,,2.072,,,,,0.596,,,,,1.476,,,,,-0.03,,,,,-0.03,,,,,10.0,,,,,0.73
+Sector 81 Otros servicios excepto actividades gubernamentales,C,C,C,C,2.072,C,C,C,C,0.596,C,C,C,C,1.476,C,C,C,C,-0.03,C,C,C,C,-0.03,C,C,C,C,10.0,C,C,C,C,0.73
 Total 026 Miquihuana,4.821,5.036,5.282,11.077,29.962,1.855,2.581,1.847,5.171,13.649,2.966,2.455,3.435,5.906,16.313,0.119,0.069,0.033,0.241,-0.655,0.125,0.005,0.007,0.312,-0.54,99.0,105.0,145.0,211.0,211.0,4.734,5.977,4.923,18.761,32.563
-checksum,2.975,4.529,4.494,9.803,27.163,1.026,2.431,1.646,4.384,13.153,1.949,2.098,2.848,5.419,14.01,0,0.069,0.033,0.218,-0.63,0.005,0.005,0.007,0.272,-0.525,73,98,125,148,197,3.297,5.583,4.04,16.321,31.732
+checksum,2.975 + 6C,4.529 + 4C,4.494 + 6C,9.803 + 6C,27.163 + 2C,1.026 + 6C,2.431 + 4C,1.646 + 6C,4.384 + 6C,13.153 + 2C,1.949 + 6C,2.098 + 4C,2.848 + 6C,5.419 + 6C,14.01 + 2C,0 + 6C,0.069 + 4C,0.033 + 6C,0.218 + 6C,-0.63 + 2C,0.005 + 6C,0.005 + 4C,0.007 + 6C,0.272 + 6C,-0.525 + 2C,73 + 6C,98 + 4C,125 + 6C,148 + 6C,197 + 2C,3.297 + 6C,5.583 + 4C,4.04 + 6C,16.321 + 6C,31.732 + 2C

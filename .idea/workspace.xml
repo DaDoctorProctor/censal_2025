@@ -4,218 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ba21d05-6455-452c-a1a7-f88e94fe8149" name="Changes" comment="Prob did something">
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+    <list default="true" id="0ba21d05-6455-452c-a1a7-f88e94fe8149" name="Changes" comment="Reworked the entire code. Fixed key problems regarding the totals. Now official totals by SAIC are used for municipio,estado and nation. Added logic to detect if a data is confidential (C) or the industry does not exist in the region (N/A). Only applies for the 041 Victoria.csv region file.">
+      <change afterPath="$PROJECT_DIR$/src/input/images/readme/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clc_output_folder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/divide_nation_state_state_region.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/divide_national_state.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/divide_regional_national.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/divide_state_region.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input/SAIC_Exporta_Clean.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input/original/SAIC_Exporta_2025922_13941551.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/00_Total_Nacional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/A111A_Nacional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/A111A_Nacional_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/A121A_Nacional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/A121A_Nacional_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/A131A_Nacional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/A131A_Nacional_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/A211A_Nacional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/A211A_Nacional_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/A221A_Nacional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/A221A_Nacional_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/H001A_Nacional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/H001A_Nacional_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/Q000A_Nacional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/00_Total_Nacional/Q000A_Nacional_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/A111A_Regional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/A121A_Regional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/A131A_Regional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/A211A_Regional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/A221A_Regional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/A111A_Centro.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/A111A_Centro_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/A121A_Centro.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/A121A_Centro_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/A131A_Centro.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/A131A_Centro_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/A211A_Centro.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/A211A_Centro_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/A221A_Centro.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/A221A_Centro_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/H001A_Centro.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/H001A_Centro_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/Q000A_Centro.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Centro/Q000A_Centro_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/A111A_Frontera.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/A111A_Frontera_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/A121A_Frontera.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/A121A_Frontera_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/A131A_Frontera.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/A131A_Frontera_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/A211A_Frontera.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/A211A_Frontera_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/A221A_Frontera.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/A221A_Frontera_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/H001A_Frontera.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/H001A_Frontera_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/Q000A_Frontera.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Frontera/Q000A_Frontera_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/H001A_Regional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/A111A_Mante.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/A111A_Mante_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/A121A_Mante.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/A121A_Mante_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/A131A_Mante.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/A131A_Mante_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/A211A_Mante.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/A211A_Mante_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/A221A_Mante.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/A221A_Mante_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/H001A_Mante.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/H001A_Mante_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/Q000A_Mante.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Mante/Q000A_Mante_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/A111A_Matamoros.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/A111A_Matamoros_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/A121A_Matamoros.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/A121A_Matamoros_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/A131A_Matamoros.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/A131A_Matamoros_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/A211A_Matamoros.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/A211A_Matamoros_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/A221A_Matamoros.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/A221A_Matamoros_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/H001A_Matamoros.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/H001A_Matamoros_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/Q000A_Matamoros.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Matamoros/Q000A_Matamoros_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Q000A_Regional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/A111A_Reynosa.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/A111A_Reynosa_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/A121A_Reynosa.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/A121A_Reynosa_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/A131A_Reynosa.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/A131A_Reynosa_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/A211A_Reynosa.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/A211A_Reynosa_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/A221A_Reynosa.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/A221A_Reynosa_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/H001A_Reynosa.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/H001A_Reynosa_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/Q000A_Reynosa.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Reynosa/Q000A_Reynosa_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/A111A_Ribereña.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/A111A_Ribereña_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/A121A_Ribereña.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/A121A_Ribereña_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/A131A_Ribereña.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/A131A_Ribereña_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/A211A_Ribereña.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/A211A_Ribereña_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/A221A_Ribereña.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/A221A_Ribereña_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/H001A_Ribereña.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/H001A_Ribereña_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/Q000A_Ribereña.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Ribereña/Q000A_Ribereña_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/A111A_Sur.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/A111A_Sur_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/A121A_Sur.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/A121A_Sur_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/A131A_Sur.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/A131A_Sur_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/A211A_Sur.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/A211A_Sur_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/A221A_Sur.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/A221A_Sur_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/H001A_Sur.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/H001A_Sur_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/Q000A_Sur.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Regional/Sur/Q000A_Sur_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/28_Tamaulipas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/28_Tamaulipas_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/A111A_Tamaulipas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/A111A_Tamaulipas_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/A121A_Tamaulipas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/A121A_Tamaulipas_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/A131A_Tamaulipas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/A131A_Tamaulipas_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/A211A_Tamaulipas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/A211A_Tamaulipas_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/A221A_Tamaulipas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/A221A_Tamaulipas_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/H001A_Tamaulipas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/H001A_Tamaulipas_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/Q000A_Tamaulipas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/28_Tamaulipas/Q000A_Tamaulipas_percent.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_national_state/A111A_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_national_state/A121A_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_national_state/A131A_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_national_state/A221A_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Centro/A111A_Centro_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Centro/A121A_Centro_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Centro/A131A_Centro_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Centro/A221A_Centro_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Frontera/A111A_Frontera_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Frontera/A121A_Frontera_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Frontera/A131A_Frontera_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Frontera/A221A_Frontera_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Mante/A111A_Mante_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Mante/A121A_Mante_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Mante/A131A_Mante_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Mante/A221A_Mante_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Matamoros/A111A_Matamoros_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Matamoros/A121A_Matamoros_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Matamoros/A131A_Matamoros_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Matamoros/A221A_Matamoros_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Reynosa/A111A_Reynosa_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Reynosa/A121A_Reynosa_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Reynosa/A131A_Reynosa_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Reynosa/A221A_Reynosa_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Ribereña/A111A_Ribereña_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Ribereña/A121A_Ribereña_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Ribereña/A131A_Ribereña_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Ribereña/A221A_Ribereña_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Sur/A111A_Sur_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Sur/A121A_Sur_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Sur/A131A_Sur_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_region_weight/Sur/A221A_Sur_weight.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Centro/A111A_Centro_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Centro/A121A_Centro_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Centro/A131A_Centro_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Centro/A221A_Centro_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Frontera/A111A_Frontera_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Frontera/A121A_Frontera_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Frontera/A131A_Frontera_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Frontera/A221A_Frontera_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Mante/A111A_Mante_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Mante/A121A_Mante_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Mante/A131A_Mante_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Mante/A221A_Mante_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Matamoros/A111A_Matamoros_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Matamoros/A121A_Matamoros_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Matamoros/A131A_Matamoros_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Matamoros/A221A_Matamoros_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Reynosa/A111A_Reynosa_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Reynosa/A121A_Reynosa_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Reynosa/A131A_Reynosa_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Reynosa/A221A_Reynosa_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Ribereña/A111A_Ribereña_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Ribereña/A121A_Ribereña_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Ribereña/A131A_Ribereña_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Ribereña/A221A_Ribereña_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Sur/A111A_Sur_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Sur/A121A_Sur_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Sur/A131A_Sur_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/csv/proportional_state_regions/Sur/A221A_Sur_proportional.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/process_percentages.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/process_saic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/run_all.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/split_regional.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/001 Abasolo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/001 Abasolo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/002 Aldama.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/002 Aldama.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/003 Altamira.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/003 Altamira.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/004 Antiguo Morelos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/004 Antiguo Morelos.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/005 Burgos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/005 Burgos.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/006 Bustamante.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/006 Bustamante.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/007 Camargo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/007 Camargo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/008 Casas.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/008 Casas.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/009 Ciudad Madero.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/009 Ciudad Madero.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/010 Cruillas.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/010 Cruillas.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/011 Gómez Farías.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/011 Gómez Farías.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/012 González.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/012 González.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/013 Güémez.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/013 Güémez.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/014 Guerrero.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/014 Guerrero.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/015 Gustavo Díaz Ordaz.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/015 Gustavo Díaz Ordaz.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/016 Hidalgo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/016 Hidalgo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/017 Jaumave.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/017 Jaumave.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/018 Jiménez.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/018 Jiménez.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/019 Llera.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/019 Llera.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/020 Mainero.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/020 Mainero.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/021 El Mante.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/021 El Mante.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/022 Matamoros.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/022 Matamoros.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/023 Méndez.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/023 Méndez.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/024 Mier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/024 Mier.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/025 Miguel Alemán.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/025 Miguel Alemán.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/026 Miquihuana.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/026 Miquihuana.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/027 Nuevo Laredo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/027 Nuevo Laredo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/028 Nuevo Morelos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/028 Nuevo Morelos.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/029 Ocampo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/029 Ocampo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/030 Padilla.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/030 Padilla.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/031 Palmillas.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/031 Palmillas.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/032 Reynosa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/032 Reynosa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/033 Río Bravo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/033 Río Bravo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/034 San Carlos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/034 San Carlos.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/035 San Fernando.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/035 San Fernando.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/036 San Nicolás.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/036 San Nicolás.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/037 Soto la Marina.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/037 Soto la Marina.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/038 Tampico.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/038 Tampico.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/039 Tula.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/039 Tula.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/040 Valle Hermoso.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/040 Valle Hermoso.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/041 Victoria.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/041 Victoria.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/042 Villagrán.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/042 Villagrán.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/043 Xicoténcatl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Mun/043 Xicoténcatl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Centro.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Centro.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Frontera.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Frontera.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Mante.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Mante.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Matamoros.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Matamoros.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Reynosa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Reynosa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Ribereña.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Ribereña.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Sur.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ready_csv/28_Tam_Regional/Sur.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +127,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Peni-/the_last_academy_of_economy/censal_2025/src/rework&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Peni-/the_last_academy_of_economy/censal_2025/src/input/dataset/SAIC_UE&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -294,15 +139,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025\src\input\dataset\SAIC_UE" />
       <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025\src\rework" />
       <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025\src\input\images\readme" />
       <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025\src" />
       <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025\legacy_builds" />
       <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025\src\rework_type_2\input" />
       <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025\src\rework\input\dataset_incorrecto" />
-      <recent name="C:\Users\Peni-\the_last_academy_of_economy\censal_2025\src\legacy" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -338,6 +184,8 @@
       <workItem from="1758941369066" duration="227000" />
       <workItem from="1758961869170" duration="732000" />
       <workItem from="1758962614942" duration="4506000" />
+      <workItem from="1759001338330" duration="972000" />
+      <workItem from="1759161660860" duration="3907000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, includes legacy files from first version.">
       <option name="closed" value="true" />
@@ -485,7 +333,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/censal_2025$test.coverage" NAME="test Coverage Results" MODIFIED="1758574237133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1758651796731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/censal_2025$main.coverage" NAME="main Coverage Results" MODIFIED="1758962005897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/censal_2025$main.coverage" NAME="main Coverage Results" MODIFIED="1759166653488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$sdsd.coverage" NAME="sdsd Coverage Results" MODIFIED="1758574347559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$divide_nation_state_state_region.coverage" NAME="divide_nation_state_state_region Coverage Results" MODIFIED="1758651776464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/censal_2025$clear.coverage" NAME="clear Coverage Results" MODIFIED="1758562912686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />

@@ -1,15 +1,15 @@
 Actividad Economica,A111A_2003,A111A_2008,A111A_2013,A111A_2018,A111A_2023,A121A_2003,A121A_2008,A121A_2013,A121A_2018,A121A_2023,A131A_2003,A131A_2008,A131A_2013,A131A_2018,A131A_2023,A211A_2003,A211A_2008,A211A_2013,A211A_2018,A211A_2023,A221A_2003,A221A_2008,A221A_2013,A221A_2018,A221A_2023,H001A_2003,H001A_2008,H001A_2013,H001A_2018,H001A_2023,Q000A_2003,Q000A_2008,Q000A_2013,Q000A_2018,Q000A_2023
-"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A
 Sector 31-33 Industrias manufactureras,3.808,2.099,1.8,3.26,6.866,1.829,0.466,1.378,1.94,3.97,1.979,1.633,0.422,1.32,2.896,0.13,0.0,0.023,-0.028,0.005,0.13,0.0,0.01,0.0,0.0,89.0,91.0,16.0,17.0,36.0,0.907,0.57,0.747,0.864,2.949
-Sector 43 Comercio al por mayor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sector 43 Comercio al por mayor,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 Sector 46 Comercio al por menor,2.831,3.404,23.231,13.91,32.258,0.902,1.045,4.116,2.824,5.415,1.929,2.359,19.115,11.086,26.843,-0.147,-0.207,0.661,-0.793,-0.206,0.179,0.0,0.42,0.01,0.313,99.0,133.0,117.0,99.0,170.0,2.675,12.611,9.747,10.696,24.333
-"Sector 48-49 Transportes, correos y almacenamiento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 52 Servicios financieros y de seguros,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 54 Servicios profesionales, científicos y técnicos",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 62 Servicios de salud y de asistencia social,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,1.003,1.336,1.47,,8.217,0.64,0.953,1.068,,5.407,0.363,0.383,0.402,,2.81,0.002,-0.005,0.011,,0.0,0.0,0.0,0.012,,0.0,17.0,22.0,30.0,,51.0,1.544,7.124,3.309,,6.644
+"Sector 48-49 Transportes, correos y almacenamiento",C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A
+Sector 52 Servicios financieros y de seguros,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A
+Sector 53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C
+"Sector 54 Servicios profesionales, científicos y técnicos",N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C,N/A,N/A,N/A,C,C
+"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A
+Sector 62 Servicios de salud y de asistencia social,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C
+Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,1.003,1.336,1.47,C,8.217,0.64,0.953,1.068,C,5.407,0.363,0.383,0.402,C,2.81,0.002,-0.005,0.011,C,0.0,0.0,0.0,0.012,C,0.0,17.0,22.0,30.0,C,51.0,1.544,7.124,3.309,C,6.644
 Sector 81 Otros servicios excepto actividades gubernamentales,0.722,0.837,0.961,2.779,3.139,0.294,0.322,0.444,1.263,0.832,0.428,0.515,0.517,1.516,2.307,0.093,-0.001,0.132,-0.013,0.0,0.093,0.0,0.122,0.027,0.0,19.0,19.0,26.0,25.0,37.0,0.429,0.785,1.267,1.098,2.324
 Total 005 Burgos,9.933,8.133,27.815,23.64,52.768,4.616,3.159,7.168,7.235,16.196,5.317,4.974,20.647,16.405,36.572,0.482,-0.213,0.837,-0.861,-0.231,0.802,0.0,0.567,0.099,0.313,254.0,287.0,198.0,171.0,305.0,7.885,22.935,15.383,15.586,38.487
-checksum,8.364,7.676,27.462,19.949,50.48,3.665,2.786,7.006,6.027,15.624,4.699,4.89,20.456,13.922,34.856,0.078,-0.213,0.827,-0.834,-0.201,0.402,0,0.564,0.037,0.313,224,265,189,141,294,5.555,21.09,15.07,12.658,36.25
+checksum,8.364 + 4C,7.676 + 5C,27.462 + 3C,19.949 + 5C,50.48 + 4C,3.665 + 4C,2.786 + 5C,7.006 + 3C,6.027 + 5C,15.624 + 4C,4.699 + 4C,4.89 + 5C,20.456 + 3C,13.922 + 5C,34.856 + 4C,0.078 + 4C,-0.213 + 5C,0.827 + 3C,-0.834 + 5C,-0.201 + 4C,0.402 + 4C,0 + 5C,0.564 + 3C,0.037 + 5C,0.313 + 4C,224 + 4C,265 + 5C,189 + 3C,141 + 5C,294 + 4C,5.555 + 4C,21.09 + 5C,15.07 + 3C,12.658 + 5C,36.25 + 4C

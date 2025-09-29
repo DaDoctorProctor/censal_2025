@@ -1,18 +1,18 @@
 Actividad Economica,A111A_2003,A111A_2008,A111A_2013,A111A_2018,A111A_2023,A121A_2003,A121A_2008,A121A_2013,A121A_2018,A121A_2023,A131A_2003,A131A_2008,A131A_2013,A131A_2018,A131A_2023,A211A_2003,A211A_2008,A211A_2013,A211A_2018,A211A_2023,A221A_2003,A221A_2008,A221A_2013,A221A_2018,A221A_2023,H001A_2003,H001A_2008,H001A_2013,H001A_2018,H001A_2023,Q000A_2003,Q000A_2008,Q000A_2013,Q000A_2018,Q000A_2023
-"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Sector 22 Generación, transmisión, distribución y comercialización de energía eléctrica, suministro de agua y de gas natural por ductos al consumidor final",C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
 Sector 31-33 Industrias manufactureras,4.937,6.893,10.98,17.12,21.821,2.773,3.746,6.392,9.655,12.375,2.164,3.147,4.588,7.465,9.446,0.23,-0.001,0.562,0.023,0.086,0.167,0.011,0.525,0.155,0.052,67.0,86.0,120.0,115.0,125.0,3.06,2.186,7.626,6.189,4.901
 Sector 43 Comercio al por mayor,1.741,4.717,0.505,17.193,31.008,0.237,0.618,0.348,4.361,3.557,1.504,4.099,0.157,12.832,27.451,0.162,0.139,0.185,0.362,1.402,0.0,0.0,0.001,0.3,0.99,18.0,21.0,7.0,52.0,84.0,1.4,2.465,1.597,4.922,6.805
 Sector 46 Comercio al por menor,16.856,13.403,20.375,55.424,67.484,3.886,5.108,4.005,11.742,16.241,12.97,8.295,16.37,43.682,51.243,4.725,0.298,0.123,1.969,1.836,3.853,0.055,0.033,0.718,0.567,268.0,299.0,247.0,351.0,382.0,13.612,12.096,21.715,40.334,27.907
-"Sector 48-49 Transportes, correos y almacenamiento",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 51 Información en medios masivos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 52 Servicios financieros y de seguros,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles,,1.318,0.539,0.613,0.759,,0.933,0.431,0.13,0.354,,0.385,0.108,0.483,0.405,,0.0,0.011,0.021,0.0,,0.0,0.0,0.021,0.0,,13.0,12.0,18.0,13.0,,2.843,4.91,1.129,0.785
-"Sector 54 Servicios profesionales, científicos y técnicos",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",,1.277,1.166,,,,0.79,0.491,,,,0.487,0.675,,,,0.0,0.0,,,,0.0,0.0,,,,29.0,9.0,,,,1.354,0.625,,
-Sector 61 Servicios educativos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sector 62 Servicios de salud y de asistencia social,,,0.325,1.824,2.246,,,0.173,0.881,1.238,,,0.152,0.943,1.008,,,-0.03,0.002,0.163,,,-0.03,0.002,0.158,,,4.0,18.0,21.0,,,0.353,2.191,1.237
-"Sector 71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Sector 48-49 Transportes, correos y almacenamiento",C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A
+Sector 51 Información en medios masivos,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C,N/A,N/A,C,N/A,C
+Sector 52 Servicios financieros y de seguros,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A,N/A,C,C,C,N/A
+Sector 53 Servicios inmobiliarios y de alquiler de bienes muebles e intangibles,C,1.318,0.539,0.613,0.759,C,0.933,0.431,0.13,0.354,C,0.385,0.108,0.483,0.405,C,0.0,0.011,0.021,0.0,C,0.0,0.0,0.021,0.0,C,13.0,12.0,18.0,13.0,C,2.843,4.91,1.129,0.785
+"Sector 54 Servicios profesionales, científicos y técnicos",N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C
+"Sector 56 Servicios de apoyo a los negocios y manejo de residuos, y servicios de remediación",C,1.277,1.166,C,C,C,0.79,0.491,C,C,C,0.487,0.675,C,C,C,0.0,0.0,C,C,C,0.0,0.0,C,C,C,29.0,9.0,C,C,C,1.354,0.625,C,C
+Sector 61 Servicios educativos,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A,N/A,N/A,N/A,C,N/A
+Sector 62 Servicios de salud y de asistencia social,C,C,0.325,1.824,2.246,C,C,0.173,0.881,1.238,C,C,0.152,0.943,1.008,C,C,-0.03,0.002,0.163,C,C,-0.03,0.002,0.158,C,C,4.0,18.0,21.0,C,C,0.353,2.191,1.237
+"Sector 71 Servicios de esparcimiento culturales y deportivos, y otros servicios recreativos",N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C,N/A,C,C,C,C
 Sector 72 Servicios de alojamiento temporal y de preparación de alimentos y bebidas,4.656,9.363,11.091,23.288,34.431,2.853,6.248,7.786,14.89,17.347,1.803,3.115,3.305,8.398,17.084,0.253,0.015,0.034,0.089,0.061,0.226,0.001,0.033,0.085,0.061,74.0,103.0,115.0,190.0,216.0,2.845,2.062,5.155,6.329,3.227
 Sector 81 Otros servicios excepto actividades gubernamentales,1.66,2.561,2.778,9.259,9.675,0.584,1.471,1.397,4.601,3.453,1.076,1.09,1.381,4.658,6.222,0.064,-0.002,0.076,0.087,0.032,0.051,0.0,0.042,0.092,0.032,46.0,42.0,60.0,91.0,92.0,1.324,1.29,6.313,8.453,6.431
 Total 029 Ocampo,39.043,41.683,50.099,128.218,169.842,10.958,19.763,22.044,47.869,55.55,28.085,21.92,28.055,80.349,114.292,5.434,0.45,0.981,2.573,3.588,4.297,0.068,0.624,1.373,1.868,521.0,623.0,591.0,864.0,963.0,26.534,24.588,49.108,71.443,52.724
-checksum,29.85,39.532,47.759,124.721,167.424,10.333,18.914,21.023,46.26,54.565,19.517,20.618,26.736,78.461,112.859,5.434,0.449,0.961,2.553,3.58,4.297,0.067,0.604,1.373,1.86,473,593,574,835,933,22.241,24.296,48.294,69.547,51.293
+checksum,29.85 + 5C,39.532 + 5C,47.759 + 5C,124.721 + 7C,167.424 + 5C,10.333 + 5C,18.914 + 5C,21.023 + 5C,46.26 + 7C,54.565 + 5C,19.517 + 5C,20.618 + 5C,26.736 + 5C,78.461 + 7C,112.859 + 5C,5.434 + 5C,0.449 + 5C,0.961 + 5C,2.553 + 7C,3.58 + 5C,4.297 + 5C,0.067 + 5C,0.604 + 5C,1.373 + 7C,1.86 + 5C,473 + 5C,593 + 5C,574 + 5C,835 + 7C,933 + 5C,22.241 + 5C,24.296 + 5C,48.294 + 5C,69.547 + 7C,51.293 + 5C
